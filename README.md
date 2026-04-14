@@ -1,2 +1,2 @@
 # codezz_dsa
-A daily learning journey ( lets learn , write , read &amp;  enjoy  learning DSA code  )  
+A daily learning journey ( lets read ,learn , write , enjoy   DSA learning   )  
