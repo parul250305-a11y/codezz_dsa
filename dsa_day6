@@ -1,0 +1,69 @@
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+
+class LinkedList:
+    def __init__(self, value):
+        new_node = Node(value)
+        self.head = new_node
+
+    def append(self, value):
+        new_node = Node(value)
+        temp = self.head
+
+        while temp.next:
+            temp = temp.next
+
+        temp.next = new_node
+
+    def print_list(self):
+        temp = self.head
+        while temp:
+            print(temp.value, end=" -> ")
+            temp = temp.next
+        print("None")
+
+    def partition_list(self, x):
+        if self.head is None:
+            return
+
+        small_dummy = Node(0)
+        big_dummy = Node(0)
+
+        small = small_dummy
+        big = big_dummy
+
+        current = self.head
+
+        while current:
+            if current.value < x:
+                small.next = current
+                small = small.next
+            else:
+                big.next = current
+                big = big.next
+
+            current = current.next
+
+        big.next = None
+        small.next = big_dummy.next
+        self.head = small_dummy.next
+
+
+# Example
+ll = LinkedList(3)
+ll.append(8)
+ll.append(5)
+ll.append(10)
+ll.append(2)
+ll.append(1)
+
+print("Before Partition:")
+ll.print_list()
+
+ll.partition_list(5)
+
+print("After Partition:")
+ll.print_list()
