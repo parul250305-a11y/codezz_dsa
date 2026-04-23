@@ -6,9 +6,18 @@ A daily learning journey ( lets read ,learn , write , enjoy   DSA learning   )
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0206-reverse-linked-list) |
+## Hash Table
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0141-linked-list-cycle) |
+## Two Pointers
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
