@@ -17,10 +17,15 @@ A daily learning journey ( lets read ,learn , write , enjoy   DSA learning   )
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0141-linked-list-cycle) |
 ## Two Pointers
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0141-linked-list-cycle) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/parul250305-a11y/codezz_dsa/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
